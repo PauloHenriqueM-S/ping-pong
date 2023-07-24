@@ -127,7 +127,7 @@ const ball = {
     this.y += this.directionY * this.speed
   },
   draw: function () {
-    ctx.fillStyle = "#ffffff"
+    ctx.fillStyle = "#01900D"
     ctx.beginPath()
     ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false)
     ctx.fill()
